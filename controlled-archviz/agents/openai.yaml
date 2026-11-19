@@ -1,0 +1,4 @@
+interface:
+  display_name: "建筑效果图 Skill"
+  short_description: "按公开版 V2.1 核查 SketchUp 模型、家具产品样本、同机位生图和验收"
+  default_prompt: "使用 $controlled-archviz 接续这个 SketchUp 项目，检查现有成果和产品样本，按 V2.1 推进到当前可完成的阶段。"
