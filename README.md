@@ -1,10 +1,12 @@
 # 建筑效果图 Skill
 
-用 CAD/PDF 和 SketchUp 的设计依据、同机位截图与真实家具产品样本，制作和验收受控建筑效果图。适用于建筑室内外项目，可从已有模型、机位资料或验收记录继续。
+用传统装饰施工图去生成su简单建模，通过固定的机位视角生成建筑效果图。可加入真实家具产品样本（图片或电商链接），制作和验收受控建筑效果图。适用于建筑装饰室内项目，可从已有模型继续。
 
 ## 工作流程
 
-先确认交付范围、机位和当前设计依据。已有 SketchUp 模型、样本卡或验收记录时，先核对它们是否仍对应当前版本，再从最早受影响的阶段续作。遇到缺失或冲突时，记录问题并暂停受影响的部分，其他机位或构件可继续。
+需安装SketchUp-MCP。（需根据本机su版本安装） 
+
+先将装饰施工图手动处理可导入su的条件图（包含墙门柱），调用skill，把附带装饰原始施工图（建议），原始施工图PDF，su条件图的文件夹发给你的AI。已有 SketchUp 模型、样本卡或验收记录时，先核对它们是否仍对应当前版本，再从最早受影响的阶段续作。遇到缺失或冲突时，记录问题并暂停受影响的部分，其他机位或构件可继续。
 
 ```mermaid
 flowchart TD
@@ -39,6 +41,8 @@ flowchart TD
 流程依据见[受控交付标准 V2.1（公开版）](controlled-archviz/references/standard-v2.1.md)。每次完成阶段或暂停时更新[续作记录](controlled-archviz/references/checkpoint.md)。
 
 ## 安装
+
+下载本仓库后，对AI说帮我安装skill+`controlled-archviz` 文件夹地址。
 
 下载本仓库后，将完整的 `controlled-archviz` 文件夹复制到 `~/.agents/skills/`。Windows 可在资源管理器中打开 `%USERPROFILE%\.agents\skills`。复制后，`controlled-archviz/SKILL.md` 应直接位于该技能文件夹中。已有同名技能时，可先比较版本再决定是否替换。
 
