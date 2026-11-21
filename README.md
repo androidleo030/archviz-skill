@@ -30,9 +30,20 @@
 
 ## 安装
 
-下载本仓库后，对AI说帮我安装skill+`controlled-archviz` 文件夹地址。
+打开本机 Codex 或 ChatGPT Work，复制发送这句话：
 
-下载本仓库后，将完整的 `controlled-archviz` 文件夹复制到 `~/.agents/skills/`。Windows 可在资源管理器中打开 `%USERPROFILE%\.agents\skills`。复制后，`controlled-archviz/SKILL.md` 应直接位于该技能文件夹中。已有同名技能时，可先比较版本再决定是否替换。
+```text
+请帮我安装这个 Skill：https://github.com/androidleo030/archviz-skill/tree/main/controlled-archviz
+```
+
+安装完成后，开启新对话调用「建筑效果图 Skill」。
+
+<details>
+<summary>手动安装</summary>
+
+[下载 ZIP](https://github.com/androidleo030/archviz-skill/archive/refs/heads/main.zip)并解压，将其中的 `controlled-archviz` 文件夹复制到 `~/.agents/skills/`。Windows 可在资源管理器地址栏输入 `%USERPROFILE%\.agents\skills`。
+
+</details>
 
 ## 调用
 
