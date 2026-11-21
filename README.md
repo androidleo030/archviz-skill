@@ -30,7 +30,7 @@
 
 ## 安装
 
-打开本机 Codex 或 ChatGPT Work，复制发送这句话：
+打开本机 Codex 或 Cloude，复制发送这句话：
 
 ```text
 请帮我安装这个 Skill：https://github.com/androidleo030/archviz-skill/tree/main/controlled-archviz
